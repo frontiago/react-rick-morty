@@ -19,8 +19,8 @@ npm install
 
 npm start
 ```
----
-### 👁️ [View Online](https://frontiago-react-ricky-morty.vercel.app/)
+---                
+### 👁️ [View Online](https://frontiago-react-rick-morty.vercel.app/)
 
 ---
 
