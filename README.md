@@ -5,6 +5,7 @@
 - Fetch info from Ricky and Morty API: 
     - https://rickandmortyapi.com/
 - Using SASS and Bootstrap
+- React Router Dom
 - React Paginate:
     - https://www.npmjs.com/package/react-paginate
 - Search bar to search for characters

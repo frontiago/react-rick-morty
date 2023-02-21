@@ -14,3 +14,9 @@ li a {
   text-decoration: none;
   color: #fff;
 }
+
+.active {
+  border-bottom: 5px solid #0b5ed7;
+  font-weight: bold !important;
+  color: #0b5ed7 !important;
+}

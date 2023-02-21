@@ -11,10 +11,11 @@ const Filters = ({ setStatus, setSpecies, setGender, setPageNumber}) => {
     setPageNumber(1)
     window.location.reload(false)
   }
-  return (
-    <div className="col-3">
-      <div className="text-center fw-bold fs-4 mb-3"> Filters </div>
 
+  return (
+    <div className="col-3 ">
+      <div className="text-center fw-bold fs-4 mb-3"> Filters </div>
+    
       <div 
         onClick={clearFilters}
         style={{cursor: 'pointer'}} 
@@ -22,7 +23,7 @@ const Filters = ({ setStatus, setSpecies, setGender, setPageNumber}) => {
           Clear Filters
       </div>
 
-      <div className="accordion" id="accordionExample">
+      <div className="accordion filter-focus" id="accordionExample">
         <Status setStatus={setStatus} setPageNumber={setPageNumber} />       
         <Species setSpecies={setSpecies} setPageNumber={setPageNumber} />
         <Gender setGender={setGender} setPageNumber={setPageNumber} />        
