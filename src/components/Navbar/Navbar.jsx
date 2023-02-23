@@ -1,8 +1,9 @@
 import { NavLink, Link } from 'react-router-dom'
 
 const Navbar = () => {
+    
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary mt-3 mb-4">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div className="container">
 
             <Link to="/" className="fs-3 ubuntu navbar-brand">

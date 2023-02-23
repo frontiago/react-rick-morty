@@ -17,18 +17,20 @@ import Location from './Pages/Location'
 function App() {
   return (
     <Router>
+
       <div className="App">
           <Navbar />
       </div>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/episodes" element={<Episodes />} />
         <Route path="/location" element={<Location />} />
       </Routes>
+
     </Router>
   )
 }
-
 
 const Home = () => {
 
