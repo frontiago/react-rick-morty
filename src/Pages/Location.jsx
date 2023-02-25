@@ -48,7 +48,7 @@ const Location = () => {
           <div className="row">
             {results.length === 0 ? 
               <h3 className="text-center text-danger"> No residents found </h3> : 
-              <Cards results={results} />
+              <Cards page="/location/" results={results} />
             }
           </div>
         </div>
