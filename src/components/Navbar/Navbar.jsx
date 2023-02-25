@@ -10,22 +10,22 @@ const Navbar = () => {
                 Rick & Morty <span className="text-primary"> WiKi </span>  
             </Link>
 
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <style jsx="true">
+                {`
+                    button[aria-expanded="false"] > .close {
+                        display: none;
+                    }
 
-                <style jsx="true">
-                    {`
-                        button[aria-expanded="false"] > .close {
-                            display: none;
-                        }
+                    button[aria-expanded="true"] > .open {
+                        display: none;
+                    }
+                `}
+            </style>
 
-                        button[aria-expanded="true"] > .open {
-                            display: none;
-                        }
-                    `}
-                </style>
+            <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 
-                <i className="fas fa-bars open"></i>
-                <i className="fas fa-times close"></i>
+            <i className="fas fa-bars open"></i>
+            <i className="fas fa-times close"></i>
 
             </button>
 
