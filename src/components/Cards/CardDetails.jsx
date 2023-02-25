@@ -1,11 +1,10 @@
-import {useParams} from 'react-router-dom'
-import {useState, useEffect} from 'react'
+import { useParams } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 const CardDetails = () => {
   let { id } = useParams()
   let [ info, setInfo ] = useState([])
   let { name, image, location, origin, gender, species, status, type } = info
-  console.log(info)
 
   const checkCharacterStatus = () => {
     if(status === 'Alive') {
@@ -31,7 +30,7 @@ const CardDetails = () => {
 
       <div className="d-flex flex-column gap-4">
         <h1 className="text-center"> {name} </h1>
-        <img className="img-fluid" src={image} alt="" />
+        <img className="img-fluid" src={image} alt={name} />
         <div className={`d-flex justify-content-center fs-5 text-light p-2 ${checkCharacterStatus()}`}> 
           {status} 
         </div>

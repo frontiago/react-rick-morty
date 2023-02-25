@@ -39,12 +39,12 @@ const Location = () => {
 
       <div className="row">
 
-        <div className="col-3">
+        <div className="col-lg-3 col-12 mb-2">
           <h5 className="text-center mb-4"> Pick Location </h5>
           <InputGroup setId={setId} name="Location" total={126} />
         </div>
 
-        <div className="col-8">
+        <div className="col-lg-8 col-12">
           <div className="row">
             {results.length === 0 ? 
               <h3 className="text-center text-danger"> No residents found </h3> : 

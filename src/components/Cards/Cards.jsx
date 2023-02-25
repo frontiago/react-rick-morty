@@ -20,15 +20,16 @@ const Cards = ({results, page}) => {
       
       return (
         <Link style={{textDecoration: 'none'}} to={`${page}${id}`} 
-          key={id} className="col-4 mb-5 position-relative text-dark"> 
-          <div className={styles.cards}>
+          key={id} className="col-lg-4 col-md-6 col-sm-12 mb-5 position-relative text-dark"> 
+
+          <div className={`${styles.cards} d-flex flex-column justify-content-center`}>
             <img src={image} alt={name} className={`${styles.img} img-fluid`} />
 
             <div className={styles.content}>
               <div className="fs-4 fw-bold mb-4"> {name} </div>
               <div className=""> 
                 <div className="fs-6"> Last location </div>
-                <div className="fs-5"> {location.name} </div>
+                <div className="fs-5"> {location.name} </div> 
               </div>
             </div>
 

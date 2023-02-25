@@ -7,6 +7,7 @@ const Episodes = () => {
   let [id, setId] = useState(1)
   let [info, setInfo] = useState([])
   let [results, setResults] = useState([])
+  
   let {air_date, name} = info
 
   let api = `https://rickandmortyapi.com/api/episode/${id}` 
@@ -45,12 +46,12 @@ const Episodes = () => {
 
       <div className="row">
 
-        <div className="col-3">
+        <div className="col-lg-3 col-12 mb-2">
           <h5 className="text-center mb-4">Pick Episodes</h5>
           <InputGroup setId={setId} name="Episode" total={51} />
         </div>
 
-        <div className="col-8">
+        <div className="col-lg-8 col-12">
           <div className="row">
             <Cards page="/episodes/" results={results} />
           </div>
