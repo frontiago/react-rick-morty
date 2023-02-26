@@ -1,4 +1,4 @@
-import styles from './Cards.module.scss'
+import styles from '../../styles/Cards.module.scss'
 import { Link } from 'react-router-dom'
 
 const Cards = ({results, page}) => {

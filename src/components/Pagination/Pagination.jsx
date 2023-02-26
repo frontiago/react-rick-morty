@@ -1,9 +1,9 @@
 import ReactPaginate from 'react-paginate'
 import {useState, useEffect} from 'react'
 
-import styles from './Pagination.module.scss'
+import styles from '../../styles/Pagination.module.scss'
 
-const Pagination = ({ info, pageNumber, setPageNumber}) => {
+const Pagination = ({ info, pageNumber, setPageNumber }) => {
 
     let [width, setWidth] = useState(window.innerWidth)
 

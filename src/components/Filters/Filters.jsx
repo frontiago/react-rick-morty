@@ -23,7 +23,7 @@ const Filters = ({ setStatus, setSpecies, setGender, setPageNumber}) => {
           Clear Filters
       </div>
 
-      <div className="accordion filter-focus" id="accordionExample">
+      <div className="accordion" id="accordionExample">
         <Status setStatus={setStatus} setPageNumber={setPageNumber} />       
         <Species setSpecies={setSpecies} setPageNumber={setPageNumber} />
         <Gender setGender={setGender} setPageNumber={setPageNumber} />        

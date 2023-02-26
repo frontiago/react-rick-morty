@@ -1,4 +1,4 @@
-import styles from './Search.module.scss'
+import styles from '../../styles/Search.module.scss'
 
 const Search = ({ setSearch, setPageNumber }) => {
 
@@ -12,7 +12,9 @@ const Search = ({ setSearch, setPageNumber }) => {
           className={styles.inputSearch} 
           placeholder="Search for characters" type="text"  
         />
-        <button onClick={e => e.preventDefault()} className={`${styles.btn} btn btn-primary fs-5`}> Search </button>
+        <button onClick={e => e.preventDefault()} className={`${styles.btn} btn btn-primary fs-5`}> 
+          Search 
+        </button>
     </form>
   )
 }

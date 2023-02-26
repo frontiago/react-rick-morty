@@ -1,4 +1,3 @@
-
 const InputGroup = ({ setId, name, total }) => {
 
   return (

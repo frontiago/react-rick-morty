@@ -22,11 +22,10 @@ const Navbar = () => {
                 `}
             </style>
 
-            <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-
-            <i className="fas fa-bars open"></i>
-            <i className="fas fa-times close"></i>
-
+            <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <i className="fas fa-bars open"></i>
+                <i className="fas fa-times close"></i>
             </button>
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">

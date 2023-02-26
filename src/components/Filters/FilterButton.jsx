@@ -1,4 +1,3 @@
-
 const FilterButton = ({ name, index, item, task, setPageNumber }) => {
   return (
     <div>

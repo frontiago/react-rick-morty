@@ -3,6 +3,7 @@ import Cards from '../components/Cards/Cards'
 import InputGroup from '../components/Filters/Category/InputGroup'
 
 const Location = () => {
+  
   let [id, setId] = useState(1)
   let [info, setInfo] = useState([])
   let [results, setResults] = useState([])
