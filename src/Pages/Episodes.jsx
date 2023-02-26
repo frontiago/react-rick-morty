@@ -31,7 +31,7 @@ const Episodes = () => {
     <div className="container">
 
       <div className="row mb-5"> 
-        <h1 className="text-center mb-3"> 
+        <h1 className="ubuntu text-center mb-3"> 
           Episode: <span className="text-primary">
             {name === ' ' ? ' Unknown' : name} 
           </span> 

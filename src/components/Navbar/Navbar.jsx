@@ -30,9 +30,9 @@ const Navbar = () => {
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div className="navbar-nav fs-5 gap-3">
-                    <NavLink ActiveClassName="active" to="/" className="nav-link" > Characters </NavLink>            
-                    <NavLink ActiveClassName="active" to="/episodes" className="nav-link" > Episodes </NavLink>            
-                    <NavLink ActiveClassName="active" to="/location" className="nav-link" > Location </NavLink>    
+                    <NavLink activeclassname="active" to="/" className="nav-link" > Characters </NavLink>            
+                    <NavLink activeclassname="active" to="/episodes" className="nav-link" > Episodes </NavLink>            
+                    <NavLink activeclassname="active" to="/location" className="nav-link" > Location </NavLink>    
                 </div>                
             </div>
 

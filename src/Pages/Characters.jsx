@@ -28,13 +28,14 @@ const Characters = () => {
       (async function() {
         let data = await fetch(api).then(res => res.json())
         setFetchedData(data)
+        console.log(data)
       })();
     }, [api])
   
     return (
       <div className="App">
   
-        <h1 className="text-center mb-4"> Characters </h1>
+        <h1 className="ubuntu text-center mb-4"> Characters </h1>
         <Search setSearch={setSearch} setPageNumber={setPageNumber} />
   
         <div className="container">
