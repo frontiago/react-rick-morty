@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap'
 
-import {useState, useEffect} from 'react'
+import { useState, useEffect } from 'react'
 
 import Search from '../components/Search/Search';
 import Filters from '../components/Filters/Filters';
@@ -10,14 +10,14 @@ import Pagination from '../components/Pagination/Pagination';
 
 const Characters = () => {
 
-    let [pageNumber, setPageNumber] = useState(1)
-    let [fetchedData, setFetchedData] = useState([])
+    let [ pageNumber, setPageNumber ] = useState(1)
+    let [ fetchedData, setFetchedData ] = useState([])
   
-    let [search, setSearch] = useState('')
+    let [ search, setSearch ] = useState('')
   
-    let [status, setStatus] = useState('')  
-    let [gender, setGender] = useState('')
-    let [species, setSpecies] = useState('')
+    let [ status, setStatus ] = useState('')  
+    let [ gender, setGender ] = useState('')
+    let [ species, setSpecies ] = useState('')
   
     let {info, results} = fetchedData
   

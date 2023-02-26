@@ -6,7 +6,7 @@ const Cards = ({results, page}) => {
 
   if(results){
     display = results.map(element => {
-      let {id, name, image, location, status} = element
+      let { id, name, image, location, status } = element
 
       const checkCharacterStatus = () => {
         if(status === 'Dead'){

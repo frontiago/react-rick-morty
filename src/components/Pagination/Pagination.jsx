@@ -1,8 +1,6 @@
 import ReactPaginate from 'react-paginate'
 import {useState, useEffect} from 'react'
 
-import styles from '../../styles/Pagination.module.scss'
-
 const Pagination = ({ info, pageNumber, setPageNumber }) => {
 
     let [width, setWidth] = useState(window.innerWidth)
@@ -34,7 +32,7 @@ const Pagination = ({ info, pageNumber, setPageNumber }) => {
                 className="pagination justify-content-center gap-4 mt-5"
                 forcePage={pageNumber === 1 ? 0 : pageNumber - 1}
                 previousLabel="Prev"
-                previousClassName={`${styles.textWhite} btn btn-primary prev`}
+                previousClassName='btn btn-primary prev'
                 nextLabel="Next"
                 nextClassName="btn btn-primary next"
                 pageClassName="page-item"

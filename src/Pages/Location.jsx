@@ -4,10 +4,10 @@ import InputGroup from '../components/Filters/Category/InputGroup'
 
 const Location = () => {
   
-  let [id, setId] = useState(1)
-  let [info, setInfo] = useState([])
-  let [results, setResults] = useState([])
-  let {name, dimension, type} = info
+  let [ id, setId ] = useState(1)
+  let [ info, setInfo ] = useState([])
+  let [ results, setResults ] = useState([])
+  let { name, dimension, type } = info
 
   let api = `https://rickandmortyapi.com/api/location/${id}`
 

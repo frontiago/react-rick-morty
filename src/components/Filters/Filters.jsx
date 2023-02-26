@@ -2,7 +2,7 @@ import Gender from './Category/Gender'
 import Species from './Category/Species'
 import Status from './Category/Status'
 
-const Filters = ({ setStatus, setSpecies, setGender, setPageNumber}) => {
+const Filters = ({ setStatus, setSpecies, setGender, setPageNumber }) => {
 
   const clearFilters = () => {
     setStatus('')

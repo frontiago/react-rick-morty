@@ -4,11 +4,11 @@ import InputGroup from '../components/Filters/Category/InputGroup'
 
 const Episodes = () => {
 
-  let [id, setId] = useState(1)
-  let [info, setInfo] = useState([])
-  let [results, setResults] = useState([])
+  let [ id, setId ] = useState(1)
+  let [ info, setInfo ] = useState([])
+  let [ results, setResults ] = useState([])
   
-  let {air_date, name} = info
+  let { air_date, name } = info
 
   let api = `https://rickandmortyapi.com/api/episode/${id}` 
 

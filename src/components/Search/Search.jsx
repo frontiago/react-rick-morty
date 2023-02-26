@@ -12,9 +12,6 @@ const Search = ({ setSearch, setPageNumber }) => {
           className={styles.inputSearch} 
           placeholder="Search for characters" type="text"  
         />
-        <button onClick={e => e.preventDefault()} className={`${styles.btn} btn btn-primary fs-5`}> 
-          Search 
-        </button>
     </form>
   )
 }
